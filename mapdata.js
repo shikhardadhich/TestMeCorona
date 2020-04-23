@@ -1,7 +1,7 @@
 var simplemaps_countrymap_mapdata={
   main_settings: {
    //General settings
-    width: "700", //'700' or 'responsive'
+    width: "responsive", //'700' or 'responsive'
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
@@ -13,7 +13,7 @@ var simplemaps_countrymap_mapdata={
     state_url: "",
     border_size: 1.5,
     all_states_inactive: "no",
-    all_states_zoomable: "yes",
+    all_states_zoomable: "no",
     
     //Location defaults
     location_description: "Location description",
@@ -39,7 +39,7 @@ var simplemaps_countrymap_mapdata={
     hide_eastern_labels: "no",
    
     //Zoom settings
-    zoom: "yes",
+    zoom: "no",
     back_image: "no",
     initial_back: "no",
     initial_zoom: "-1",
@@ -60,7 +60,7 @@ var simplemaps_countrymap_mapdata={
     
     //Advanced settings
     div: "map",
-    auto_load: "yes",
+    auto_load: "no",
     url_new_tab: "no",
     images_directory: "default",
     fade_time: 0.1,
@@ -69,11 +69,12 @@ var simplemaps_countrymap_mapdata={
     state_image_url: "",
     state_image_position: "",
     location_image_url: "",
-    manual_zoom: "yes"
+    manual_zoom: "no"
   },
   state_specific: {
     "1": {
-      name: "Andaman and Nicobar"
+      name: "Andaman and Nicobar",
+      description:"some random desciption"
     },
     "2": {
       name: "Andhra Pradesh"
@@ -183,9 +184,9 @@ var simplemaps_countrymap_mapdata={
   },
   locations: {
     "0": {
-      lat: 18.987807,
-      lng: 72.836447,
-      name: "Mumbai"
+      lat: 0.0,
+      lng: 0.0,
+      name: ""
     }
   },
   labels: {},

@@ -845,7 +845,7 @@ menu_text {
 
 .update_section {
     width: 100%;
-    float: left;
+    /* float: left; */
     padding-top: 40px;
     padding-bottom: 1px;
 }
@@ -1032,4 +1032,38 @@ textarea#comment::placeholder {
     margin-top: 90px;
 }
 
+.total_count{
+    background-color: green; 
+    width: 55%; 
+    margin: auto; 
+    padding-bottom: 20px; 
+    padding-top: 20px ; 
+    margin-top: 700px; 
+    border-width: 1px; 
+    border-radius: 20px;
+}
+.tnc{
+    width:55%; margin: auto
+}
 
+@media (max-width: 400px){
+    .total_count{
+        width: 90%; 
+        margin-top: 970px; 
+       
+    }
+    .tnc{
+        width:90%; margin: auto
+    }
+    
+}
+@media (min-width: 401px) and (max-width:1024px){
+    .total_count{
+        
+        margin-top: 650px; 
+       
+    }
+    .tnc{
+        width:60%; margin: auto
+    }
+}
