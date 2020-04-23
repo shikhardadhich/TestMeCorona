@@ -286,6 +286,11 @@
           document.getElementById('us').value = '';
           document.getElementById('cnumber').value = '';
           document.getElementById('userAddress').value = '';
+          document.getElementById('nameErr').style.visibility = "hidden"
+          document.getElementById('cityErr').style.visibility = "hidden"
+          document.getElementById('stateErr').style.visibility = "hidden"
+          document.getElementById('mobileErr').style.visibility = "hidden"
+          document.getElementById('addressErr').style.visibility = "hidden"
         }).catch(error => {
           document.getElementById("loading").style.color = "red"
           document.getElementById("loading").innerHTML = "oops, something went wrong!"
