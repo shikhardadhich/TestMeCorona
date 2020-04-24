@@ -1046,7 +1046,7 @@ textarea#comment::placeholder {
     width:55%; margin: auto
 }
 
-@media (max-width: 400px){
+@media (max-width: 550px){
     .total_count{
         width: 90%; 
         margin-top: 970px; 
@@ -1057,7 +1057,7 @@ textarea#comment::placeholder {
     }
     
 }
-@media (min-width: 401px) and (max-width:1024px){
+@media (min-width: 551px) and (max-width:1024px){
     .total_count{
         
         margin-top: 650px; 
