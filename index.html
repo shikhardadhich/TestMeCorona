@@ -106,53 +106,6 @@
       <p class="update_taital" style="color:whitesmoke; text-align: center">Registered User</p>
     </div>
   </div>
-  <div class="update_section">
-    <div class="container">
-      <h1 class="update_taital">Enter your details </h1>
-      <form>
-        <div class="form-group">
-          <input class="update_mail" placeholder="Full Name" id="name" name="fullName">
-          <p id="nameErr" style="color: red; visibility: hidden; text-align: center">Name cannot be empty.</p>
-        </div>
-        <div class="form-group">
-          <input class="update_mail" type="text"
-            onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"
-            maxlength="10" m placeholder="Contact Number" id="cnumber" name="conNumber">
-          <p id="mobileErr" style="color: red; visibility: hidden;text-align: center">Mobile number cannot be empty.</p>
-        </div>
-
-        <div class="form-group">
-          <textarea class="update_mail" placeholder="Address" rows="5" id="userAddress" name="addr"></textarea>
-          <p id="addressErr" style="color: red; visibility: hidden;text-align: center">Address cannot be empty.</p>
-
-        </div>
-        <div class="form-group">
-          <input id="us" list="state" name="statess" class="update_mail" placeholder="State"
-            onchange="print_city('city')">
-          <datalist id="state">
-
-          </datalist>
-          <script language="javascript">print_state("state");</script>
-          <p id="stateErr" style="color: red; visibility: hidden;text-align: center">State cannot be empty.</p>
-        </div>
-        <div class="form-group">
-          <input id="uc" list="city" name="cityy" class="update_mail" placeholder="City">
-          <datalist id="city">
-
-          </datalist>
-          <p id="cityErr" style="color: red; visibility: hidden;text-align: center">City cannot be empty.</p>
-        </div>
-        <div class="tnc">
-          <input type="checkbox" id="tnc"  value="tnc">
-          <label for="tnc"> By Checking this, you allow us to share your data with Indian Government</label><br>
-          <p id="checkErr" style="color: red; visibility: hidden;text-align: center">Please check the checkbox.</p>
-
-        </div>
-        <div class="subscribe_bt" onclick="submitForm()">Submit</div>
-      </form>
-      <h1 class="update_taital" id="loading" style="visibility: hidden">Submitting.... </h1>
-    </div>
-  </div>
   <!-- <div id="map" style="background-color: aqua; margin:auto"></div> -->
   <div id="map"></div>
   <div class="protect_section layout_padding">
